@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/DELL/IdeaProjects/LearningATB14xAPIAutomation">
+        <classes>
+            <class name="org.example.ex_03_RA_TestNG_AllureReport.Lab005_TestAnnotation">
+                <methods>
+                    <include name="test_Positive_TC01"/>
+                    <include name="test_Negative_TC02"/>
+                    <include name="test_Null_TC03"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
